@@ -17,6 +17,7 @@ RUN apt-get update \
         hp-ppd  \
         hplip \
         printer-driver-foo2zjs \
+        ptouch-driver \
         gnupg2 \
         lsb-release \
     && echo "deb http://nginx.org/packages/debian `lsb_release -cs` nginx" \
