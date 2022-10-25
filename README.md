@@ -1,4 +1,4 @@
-# Nicholas' Home Assistant Addon Repository
+# phrxmd's fork of Nicholas' Home Assistant Addon Repository
 
 ## CUPS Addon
 
@@ -9,3 +9,7 @@ Logins are disabled from the local network, but the web UI from within Home Assi
 cupsd.conf and Dockerfile modified from https://github.com/lemariva/wifi-cups-server
 
 Some of the Avahi and D-Bus code is modified from https://github.com/marthoc/docker-homeseer
+
+Added packages over Nicholas' own version:
+
+- [this driver](https://github.com/philpem/printer-driver-ptouch) for the Brother PTouch series of label printer
